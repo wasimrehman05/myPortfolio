@@ -70,7 +70,7 @@ const GetDetail1 = () => {
     document.getElementById("get1").style.display = "none";
     document.getElementById("close1").style.display = "flex";
     document.getElementById("box1").style.boxShadow =
-        "rgba(37, 37, 233, 0.503) 0px 13px 27px -5px, rgba(51, 38, 233, 0.468) 0px 8px 16px -8px";
+        "0 3px 10px -5px #277ad894, -7px 5px 10px -5px #277ad894, 7px 5px 10px -5px #277ad894";
     l;
 };
 const CloseDetail1 = () => {
@@ -84,7 +84,7 @@ const GetDetail2 = () => {
     document.getElementById("get2").style.display = "none";
     document.getElementById("close2").style.display = "flex";
     document.getElementById("box2").style.boxShadow =
-        "rgba(37, 37, 233, 0.503) 0px 13px 27px -5px, rgba(51, 38, 233, 0.468) 0px 8px 16px -8px";
+        "0 3px 10px -5px #277ad894, -7px 5px 10px -5px #277ad894, 7px 5px 10px -5px #277ad894";
     l;
 };
 const CloseDetail2 = () => {
@@ -98,8 +98,7 @@ const GetDetail3 = () => {
     document.getElementById("get3").style.display = "none";
     document.getElementById("close3").style.display = "flex";
     document.getElementById("box3").style.boxShadow =
-        "rgba(37, 37, 233, 0.503) 0px 13px 27px -5px, rgba(51, 38, 233, 0.468) 0px 8px 16px -8px";
-    l;
+        "0 3px 10px -5px #277ad894, -7px 5px 10px -5px #277ad894, 7px 5px 10px -5px #277ad894";
 };
 const CloseDetail3 = () => {
     document.getElementById("project3_Info").style.display = "none";
